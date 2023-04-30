@@ -4,6 +4,9 @@ TED is a non-profit devoted to spreading ideas, usually in the form of short, po
 
 Data: The dataset for around 2500 sets has been downloaded from Kaggle and the relevant columns were then extracted into a CSV file.
 
+TF-IDF (Term frequency, Inverse document frequency) weighting was used on the data corpus to rank the various
+items after performing tokenisation and normalisation on the data se
+
 GUI: A GUI has been created using python’s tkinter. The interface consists of two text fields to enter the query and the id of the talk that the user wants to watch. Basic exceptions have been handled as well. The most relevant results are outputted onto a text area.
 
 
